@@ -1,0 +1,41 @@
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  ... done!
+[ebuild  N     ] dev-libs/npth-1.2::gentoo  USE="-static-libs" 292 KiB
+[ebuild  N     ] dev-libs/libassuan-2.4.3::gentoo  USE="-static-libs" 547 KiB
+[ebuild  N     ] virtual/perl-Scalar-List-Utils-1.410.0-r1::gentoo  0 KiB
+[ebuild  N     ] dev-libs/libksba-1.3.5::gentoo  USE="-static-libs" 607 KiB
+[ebuild  N     ] app-eselect/eselect-lib-bin-symlink-0.1.1::gentoo  45 KiB
+[ebuild  N     ] net-dns/libidn-1.33::gentoo  USE="nls -doc -emacs -java -mono -static-libs" ABI_X86="(64) -32 (-x32)" 3419 KiB
+[ebuild  N     ] dev-libs/nettle-3.2-r1:0/6::gentoo  USE="gmp -doc (-neon) -static-libs {-test}" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="-aes" 1836 KiB
+[ebuild  N     ] dev-scheme/guile-1.8.8-r3:12/8::gentoo  USE="deprecated nls readline regex threads -debug -debug-freelist -debug-malloc -discouraged -emacs -networking" 3864 KiB
+[ebuild  N     ] dev-perl/HTML-Tagset-3.200.0-r1::gentoo  8 KiB
+[ebuild  N     ] virtual/perl-Digest-SHA-5.950.100_rc-r1::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-Digest-MD5-2.540.0-r2::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-parent-0.232.0-r1::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-if-0.60.400-r1::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-Exporter-5.720.0-r2::gentoo  0 KiB
+[ebuild  N     ] perl-core/Encode-2.730.0::gentoo  1967 KiB
+[ebuild  N     ] virtual/perl-Carp-1.360.0-r1::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-MIME-Base64-3.150.0-r2::gentoo  0 KiB
+[ebuild  N     ] virtual/perl-libnet-3.50.100_rc::gentoo  0 KiB
+[ebuild  N     ] net-misc/curl-7.52.1-r1::gentoo  USE="ipv6 ssl -adns -http2 -idn -kerberos -ldap -metalink -rtmp -samba -ssh -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" CURL_SSL="openssl -axtls -gnutls (-libressl) -mbedtls -nss -polarssl (-winssl)" 2540 KiB
+[ebuild  N     ] dev-perl/Error-0.170.240::gentoo  USE="{-test}" 31 KiB
+[ebuild  N     ] dev-perl/Net-SSLeay-1.720.0-r1::gentoo  USE="minimal -examples (-libressl) {-test}" 377 KiB
+[ebuild  N     ] app-eselect/eselect-pinentry-0.6::gentoo  0 KiB
+[ebuild  N     ] sys-devel/autogen-5.18.4::gentoo  USE="-libopts -static-libs" 995 KiB
+[ebuild  N     ] dev-libs/libtasn1-4.9-r1:0/6::gentoo  USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 1822 KiB
+[ebuild  N     ] dev-perl/HTML-Parser-3.710.0-r1::gentoo  USE="{-test}" 89 KiB
+[ebuild  N     ] dev-perl/Digest-HMAC-1.30.0-r1::gentoo  8 KiB
+[ebuild  N     ] virtual/perl-Encode-2.730.0-r1::gentoo  0 KiB
+[ebuild  N     ] dev-perl/Authen-SASL-2.160.0-r1::gentoo  USE="-kerberos" 45 KiB
+[ebuild  N     ] dev-perl/CGI-4.220.0::gentoo  USE="{-test}" 190 KiB
+[ebuild  N     ] dev-perl/IO-Socket-SSL-2.24.0::gentoo  USE="-idn" 205 KiB
+[ebuild  N     ] net-libs/gnutls-3.3.24-r1::gentoo  USE="crywrap cxx nls openssl zlib -dane -doc -examples -guile -pkcs11 -static-libs {-test}" ABI_X86="(64) -32 (-x32)" LINGUAS="-cs -de -en -fi -fr -it -ms -nl -pl -sv -uk -vi -zh_CN" 6148 KiB
+[ebuild  N     ] app-crypt/pinentry-0.9.7-r1::gentoo  USE="ncurses -caps -emacs -gnome-keyring -gtk -qt4 -qt5 -static" 423 KiB
+[ebuild  N     ] app-crypt/gnupg-2.1.15::gentoo  USE="bzip2 gnutls nls readline -doc -ldap (-selinux) -smartcard -tofu -tools -usb" 5590 KiB
+[ebuild  N     ] dev-perl/Net-SMTP-SSL-1.30.0::gentoo  USE="{-test}" 3 KiB
+[ebuild  N     ] dev-vcs/git-2.10.2::gentoo  USE="blksha1 cgi curl gpg iconv nls pcre perl python threads webdav -cvs -doc -emacs -gnome-keyring -gtk -highlight (-libressl) -mediawiki -mediawiki-experimental (-ppcsha1) -subversion {-test} -tk -xinetd" LINGUAS="-bg -ca -de -fr -is -it -ko -pt_PT -ru -sv -vi -zh_CN" PYTHON_TARGETS="python2_7" 0 KiB
+
+Total: 35 packages (35 new), Size of downloads: 31039 KiB
