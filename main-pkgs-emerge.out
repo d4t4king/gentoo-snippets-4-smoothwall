@@ -1,0 +1,251 @@
+
+These are the packages that would be merged, in reverse order:
+
+Calculating dependencies  .. ... done!
+[ebuild  N     ] sys-apps/usb_modeswitch-2.2.6::gentoo  USE="-jimtcl" 287 KiB
+[ebuild  N     ] sys-apps/usbutils-008-r1::gentoo  USE="python" PYTHON_TARGETS="python2_7" 281 KiB
+[ebuild  N     ] net-dns/unbound-1.5.10::gentoo  USE="ecdsa python (selinux) -debug -dnstap -gost (-libressl) -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 4,826 KiB
+[ebuild  N     ] net-analyzer/tcpdump-4.8.0::gentoo  USE="drop-root ssl (-libressl) -samba -smi -suid {-test}" 1,123 KiB
+[ebuild  N     ] sys-fs/sysfsutils-2.1.0::gentoo  USE="-static-libs" 771 KiB
+[ebuild  N    ~] net-analyzer/suricata-3.2-r1::gentoo  USE="af-packet detection hardened nfqueue rules -control-socket -cuda -debug -geoip -logrotate -lua -luajit -nflog -redis {-test}" 11,458 KiB
+[ebuild  N     ] dev-vcs/subversion-1.9.5::gentoo  USE="berkdb dso http nls perl python -apache2 -ctypes-python -debug -doc -extras -gnome-keyring -java -kde -ruby -sasl {-test} -vim-syntax" PYTHON_TARGETS="python2_7" 7,720 KiB
+[ebuild  N     ] dev-util/strace-4.13::gentoo  USE="perl -aio -static -unwind" 828 KiB
+[ebuild  N     ] net-proxy/squidguard-1.5_beta-r1::gentoo  USE="-ldap" 1,937 KiB
+[ebuild  N     ] net-proxy/squidclamav-6.8::gentoo  821 KiB
+[ebuild  N     ] net-proxy/squid-3.5.23::gentoo  USE="htcp pam (selinux) sqlite ssl wccp wccpv2 -caps -ecap -esi (-ipf-transparent) -ipv6 -kerberos (-kqueue) -ldap (-libressl) -logrotate -mysql -nis (-pf-transparent) -postgres -qos -radius -samba -sasl -snmp -ssl-crtd {-test} -tproxy" 2,272 KiB
+[ebuild  N    ~] net-analyzer/snort-2.9.8.3-r1::gentoo  USE="active-response flexresp3 gre non-ether-decoders perfprofiling ppm react (selinux) threads -control-socket -debug -file-inspect -high-availability -inline-init-failopen -large-pcap-64bit -linux-smp-stats -reload-error-restart -shared-rep -side-channel -sourcefire -static" 6,098 KiB
+[ebuild  N     ] sys-apps/smartmontools-6.4::gentoo  USE="(selinux) -caps -minimal -static" 804 KiB
+[ebuild  N     ] net-fs/samba-4.2.11::gentoo  USE="acl pam (selinux) system-mitkrb5 -addc -addns -ads -aio -avahi -client -cluster -cups -dmapi -fam -gnutls -iprint -ldap -quota -syslog (-systemd) {-test} -winbind" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 20,392 KiB
+[ebuild  N     ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 26,239 KiB
+[ebuild  N     ] app-admin/procinfo-ng-2.0.304-r1::gentoo  62 KiB
+[ebuild  N     ] sys-apps/pcmciautils-018_p8::gentoo  USE="-debug -staticsocket" 59 KiB
+[ebuild  N     ] sys-block/parted-3.2::gentoo  USE="debug nls readline (selinux) -device-mapper -static-libs" 1,617 KiB
+[ebuild  N    ~] mail-filter/p3scan-2.3.2-r2::gentoo  315 KiB
+[ebuild  N     ] net-analyzer/ntop-5.0.1-r2::gentoo  USE="ssl -snmp" PYTHON_TARGETS="python2_7" 39,194 KiB
+[ebuild  N     ] dev-libs/newt-0.52.15::gentoo  USE="nls -gpm -tcl" PYTHON_TARGETS="python2_7" 179 KiB
+[ebuild  N     ] net-libs/neon-0.30.1:0/27::gentoo  USE="nls ssl zlib -doc -expat -gnutls -kerberos -libproxy -pkcs11 -static-libs" ABI_X86="(64) -32 (-x32)" LINGUAS="-cs -de -fr -ja -nn -pl -ru -tr -zh_CN" 891 KiB
+[ebuild  N    ~] net-misc/miniupnpd-2.0::gentoo  USE="leasefile -igd2 -ipv6 -pcp-peer -portinuse -strict" 213 KiB
+[ebuild  N     ] sys-fs/mdadm-3.4::gentoo  USE="-static" 498 KiB
+[ebuild  N     ] www-client/lynx-2.8.8_p2::gentoo  USE="bzip2 nls ssl unicode -cjk -gnutls -idn -ipv6" 2,527 KiB
+[ebuild  N     ] app-admin/logrotate-3.10.0::gentoo  USE="acl cron (selinux)" 159 KiB
+[ebuild  N     ] sys-apps/lm_sensors-3.4.0_p20160725:0/4.4.0::gentoo  USE="-sensord -static-libs" ABI_X86="(64) -32 (-x32)" 203 KiB
+[ebuild  N     ] dev-libs/libusb-compat-0.1.5-r2::gentoo  USE="-debug -examples -static-libs" ABI_X86="(64) -32 (-x32)" 271 KiB
+[ebuild  N     ] net-libs/libnftnl-1.0.6:0/4::gentoo  USE="-examples -json -static-libs {-test} -threads -xml" 373 KiB
+[ebuild  N     ] net-libs/libnetfilter_log-1.0.1::gentoo  USE="-static-libs" 257 KiB
+[ebuild  N     ] net-libs/libnetfilter_cttimeout-1.0.0::gentoo  USE="-static-libs" 269 KiB
+[ebuild  N     ] net-libs/libnetfilter_cthelper-1.0.0::gentoo  USE="-static-libs" 269 KiB
+[ebuild  N     ] net-libs/libnetfilter_conntrack-1.0.4::gentoo  USE="-static-libs" 419 KiB
+[ebuild  N     ] net-libs/libnetfilter_acct-1.0.2::gentoo  USE="-examples" 286 KiB
+[ebuild  N     ] net-analyzer/iftop-1.0_pre4::gentoo  200 KiB
+[ebuild  N     ] app-admin/hddtemp-0.3_beta15-r7::gentoo  USE="nls (selinux)" 256 KiB
+[ebuild  N    ~] net-dns/ez-ipupdate-3.0.11.13.3_beta8-r3::gentoo  231 KiB
+[ebuild  N     ] sys-fs/dosfstools-4.0-r1::gentoo  USE="udev -compat" 154 KiB
+[ebuild  N     ] net-dns/dnsmasq-2.76::gentoo  USE="dhcp inotify nls (selinux) -auth-dns -conntrack -dbus -dhcp-tools -dnssec -idn -ipv6 -lua -script -static -tftp" LINGUAS="-de -es -fi -fr -id -it -no -pl -pt_BR -ro" 470 KiB
+[ebuild  N     ] net-misc/dhcp-4.3.4::gentoo  USE="client (selinux) server ssl -ipv6 -ldap (-libressl) -vim-syntax" 9,085 KiB
+[ebuild  N    ~] net-proxy/c-icap-modules-0.2.4::gentoo  USE="berkdb -clamav" 365 KiB
+[ebuild  N     ] app-antivirus/clamav-0.99::gentoo  USE="bzip2 iconv (selinux) -clamdtop -ipv6 (-libressl) -metadata-analysis-api -milter -static-libs (-uclibc)" 15,594 KiB
+[ebuild  N     ] app-cdr/cdrtools-3.02_alpha06::gentoo  USE="acl filecaps nls unicode -caps" 2,069 KiB
+[ebuild  N     ] sys-process/at-3.1.18-r1::gentoo  USE="pam (selinux)" 122 KiB
+[ebuild  N     ] sys-power/apcupsd-3.14.13::gentoo  USE="cgi nls usb -gnome -snmp" 1,890 KiB
+[nomerge       ] net-analyzer/ntop-5.0.1-r2::gentoo  USE="ssl -snmp" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  media-gfx/graphviz-2.38.0-r1::gentoo  USE="cairo nls perl python -X -devil -doc -examples -gdk-pixbuf -gtk -gts -guile -java -lasi -pdf -postscript -qt4 -ruby -static-libs -svg -tcl" PYTHON_TARGETS="python2_7" 25,244 KiB
+[ebuild  N     ]  net-analyzer/rrdtool-1.5.5::gentoo  USE="graph perl python tcpd -dbi -doc -lua -rados -rrdcgi -ruby -static-libs -tcl" PYTHON_TARGETS="python2_7" 2,137 KiB
+[ebuild  N     ]   x11-libs/pango-1.40.3::gentoo  USE="introspection -X {-test}" ABI_X86="(64) -32 (-x32)" 1,037 KiB
+[ebuild  N     ]    media-libs/harfbuzz-1.3.1:0/0.9.18::gentoo  USE="cairo glib graphite introspection truetype -fontconfig -icu -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 1,327 KiB
+[ebuild  N     ]  media-libs/gd-2.2.3:2/3::gentoo  USE="fontconfig jpeg png truetype zlib -static-libs -tiff -webp -xpm" ABI_X86="(64) -32 (-x32)" 2,114 KiB
+[nomerge       ] media-gfx/graphviz-2.38.0-r1::gentoo  USE="cairo nls perl python -X -devil -doc -examples -gdk-pixbuf -gtk -gts -guile -java -lasi -pdf -postscript -qt4 -ruby -static-libs -svg -tcl" PYTHON_TARGETS="python2_7" 
+[nomerge       ]  x11-libs/pango-1.40.3::gentoo  USE="introspection -X {-test}" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]   x11-libs/cairo-1.14.6::gentoo  USE="glib svg -X (-aqua) -debug (-directfb) (-gles2) -opengl -static-libs -valgrind -xcb -xlib-xcb" ABI_X86="(64) -32 (-x32)" 35,196 KiB
+[nomerge       ] x11-libs/pango-1.40.3::gentoo  USE="introspection -X {-test}" ABI_X86="(64) -32 (-x32)" 
+[nomerge       ]  media-libs/fontconfig-2.11.1-r2:1.0::gentoo  USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]   app-eselect/eselect-fontconfig-1.1::gentoo  2 KiB
+[ebuild  N     ]    media-libs/fontconfig-2.11.1-r2:1.0::gentoo  USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 1,481 KiB
+[nomerge       ] sys-power/apcupsd-3.14.13::gentoo  USE="cgi nls usb -gnome -snmp" 
+[ebuild  N     ]  virtual/mailx-1::gentoo  0 KiB
+[ebuild  N     ]   net-mail/mailutils-2.99.98-r1::gentoo  USE="berkdb clients gdbm nls pam python ssl tcpd threads -bidi -guile -ipv6 -kerberos -ldap -mysql -postgres -sasl -servers -static-libs -tokyocabinet" PYTHON_TARGETS="python2_7" 2,447 KiB
+[nomerge       ] app-cdr/cdrtools-3.02_alpha06::gentoo  USE="acl filecaps nls unicode -caps" 
+[ebuild  N     ]  x11-misc/makedepend-1.0.5::gentoo  141 KiB
+[ebuild  N     ]   x11-proto/xproto-7.0.29::gentoo  USE="-doc" ABI_X86="(64) -32 (-x32)" 302 KiB
+[nomerge       ] media-libs/harfbuzz-1.3.1:0/0.9.18::gentoo  USE="cairo glib graphite introspection truetype -fontconfig -icu -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  media-gfx/graphite2-1.3.8::gentoo  USE="perl {-test}" ABI_X86="(64) -32 (-x32)" 3,795 KiB
+[nomerge       ] net-fs/samba-4.2.11::gentoo  USE="acl pam (selinux) system-mitkrb5 -addc -addns -ads -aio -avahi -client -cluster -cups -dmapi -fam -gnutls -iprint -ldap -quota -syslog (-systemd) {-test} -winbind" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  sys-libs/ldb-1.1.26:0/1.1.26::gentoo  USE="-doc" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 1,234 KiB
+[ebuild  N     ]   net-nds/openldap-2.4.43::gentoo  USE="berkdb crypt perl (selinux) ssl syslog tcpd -cxx -debug -experimental -gnutls -icu -iodbc -ipv6 -kerberos (-libressl) -minimal -odbc -overlays -samba -sasl -slp -smbkrb5passwd -static-libs" ABI_X86="(64) -32 (-x32)" 5,534 KiB
+[ebuild  N     ]  sys-libs/ntdb-1.0-r1::gentoo  USE="python" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 776 KiB
+[ebuild  N     ]  sys-libs/tdb-1.3.8::gentoo  USE="python" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 483 KiB
+[ebuild  NS    ]   app-text/docbook-xml-dtd-4.2-r2:4.2::gentoo [4.1.2-r6:4.1.2::gentoo] 77 KiB
+[ebuild  N     ]  sys-libs/nss_wrapper-1.1.3::gentoo  USE="{-test}" ABI_X86="(64) -32 (-x32)" 53 KiB
+[ebuild  N     ]  dev-python/subunit-1.2.0-r1::gentoo  USE="-static-libs {-test}" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 450 KiB
+[ebuild  N     ]  net-libs/socket_wrapper-1.1.6::gentoo  USE="{-test}" ABI_X86="(64) -32 (-x32)" 53 KiB
+[ebuild  N     ]  sys-libs/uid_wrapper-1.2.1::gentoo  USE="{-test}" ABI_X86="(64) -32 (-x32)" 305 KiB
+[nomerge       ] dev-vcs/subversion-1.9.5::gentoo  USE="berkdb dso http nls perl python -apache2 -ctypes-python -debug -doc -extras -gnome-keyring -java -kde -ruby -sasl {-test} -vim-syntax" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  net-libs/serf-1.3.8:1::gentoo  USE="-kerberos" 140 KiB
+[nomerge       ] net-analyzer/suricata-3.2-r1::gentoo  USE="af-packet detection hardened nfqueue rules -control-socket -cuda -debug -geoip -logrotate -lua -luajit -nflog -redis {-test}" 
+[ebuild  N     ]  dev-libs/nss-3.27.2::gentoo  USE="nss-pem -cacert -utils" ABI_X86="(64) -32 (-x32)" 28 KiB
+[ebuild  N     ]  net-libs/libnetfilter_queue-1.0.2::gentoo  USE="-static-libs" 346 KiB
+[nomerge       ] x11-libs/pango-1.40.3::gentoo  USE="introspection -X {-test}" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  dev-libs/gobject-introspection-1.48.0::gentoo  USE="-cairo -doctool {-test}" PYTHON_TARGETS="python2_7" 1,340 KiB
+[ebuild  N     ]   dev-util/desktop-file-utils-0.23::gentoo  USE="-emacs" 129 KiB
+[nomerge       ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 
+[ebuild  N     ]  x11-libs/pixman-0.34.0::gentoo  USE="(-altivec) (-iwmmxt) (-loongson2f) (-neon) -static-libs" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="mmxext sse2 -ssse3" 723 KiB
+[nomerge       ] sys-libs/ldb-1.1.26:0/1.1.26::gentoo  USE="-doc" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  sys-libs/tevent-0.9.28::gentoo  USE="python" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 568 KiB
+[nomerge       ] sys-libs/nss_wrapper-1.1.3::gentoo  USE="{-test}" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  dev-util/cmake-3.6.3::gentoo  USE="ncurses -doc -emacs -qt5 -system-jsoncpp {-test}" 6,758 KiB
+[ebuild  N     ]   app-arch/libarchive-3.2.2:0/13::gentoo  USE="acl bzip2 e2fsprogs iconv lzma threads xattr zlib -expat (-libressl) -lz4 -lzo -nettle -static-libs" ABI_X86="(64) -32 (-x32)" 5,331 KiB
+[nomerge       ] net-libs/serf-1.3.8:1::gentoo  USE="-kerberos" 
+[ebuild  N     ]  dev-libs/apr-util-1.5.4:1::gentoo  USE="berkdb gdbm sqlite -doc -freetds -ldap -mysql -nss -odbc -openssl -postgres -static-libs" 679 KiB
+[ebuild  N     ]   dev-libs/apr-1.5.2:1::gentoo  USE="(selinux) urandom -doc -older-kernels-compatibility -static-libs" 808 KiB
+[ebuild   R    ]    sys-apps/util-linux-2.26.2::gentoo  USE="cramfs ncurses nls pam python (selinux) suid tty-helpers* unicode -build -caps -fdformat -slang -static-libs (-systemd) {-test} -udev" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="python2_7 -python3_4" PYTHON_TARGETS="python2_7 python3_4" 0 KiB
+[nomerge       ] dev-vcs/subversion-1.9.5::gentoo  USE="berkdb dso http nls perl python -apache2 -ctypes-python -debug -doc -extras -gnome-keyring -java -kde -ruby -sasl {-test} -vim-syntax" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  dev-perl/URI-1.710.0::gentoo  USE="{-test}" 98 KiB
+[nomerge       ] net-proxy/squid-3.5.23::gentoo  USE="htcp pam (selinux) sqlite ssl wccp wccpv2 -caps -ecap -esi (-ipf-transparent) -ipv6 -kerberos (-kqueue) -ldap (-libressl) -logrotate -mysql -nis (-pf-transparent) -postgres -qos -radius -samba -sasl -snmp -ssl-crtd {-test} -tproxy" 
+[ebuild  N     ]  dev-perl/DBD-SQLite-1.500.0::gentoo  USE="-system-sqlite {-test}" 1,977 KiB
+[ebuild  N     ]   dev-perl/DBI-1.636.0::gentoo  USE="-examples {-test}" 582 KiB
+[ebuild  N     ]    virtual/perl-Sys-Syslog-0.330.100_rc-r1::gentoo  0 KiB
+[ebuild  N     ]    dev-perl/PlRPC-0.202.0-r2::gentoo  18 KiB
+[ebuild  N     ]     virtual/perl-Storable-2.530.200_rc::gentoo  0 KiB
+[nomerge       ] net-fs/samba-4.2.11::gentoo  USE="acl pam (selinux) system-mitkrb5 -addc -addns -ads -aio -avahi -client -cluster -cups -dmapi -fam -gnutls -iprint -ldap -quota -syslog (-systemd) {-test} -winbind" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  app-crypt/mit-krb5-1.14.2::gentoo  USE="keyutils pkinit (selinux) threads -doc (-libressl) -openldap {-test} -xinetd" ABI_X86="(64) -32 (-x32)" 11,978 KiB
+[ebuild  N     ]   dev-libs/libverto-0.2.5-r1::gentoo  USE="libev threads -glib -libevent -static-libs -tevent" ABI_X86="(64) -32 (-x32)" 342 KiB
+[ebuild  N     ]    dev-libs/libev-4.19::gentoo  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 513 KiB
+[nomerge       ] media-gfx/graphite2-1.3.8::gentoo  USE="perl {-test}" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  dev-perl/Locale-Maketext-Lexicon-1.0.0::gentoo  USE="{-test}" 90 KiB
+[ebuild  N     ]   virtual/perl-Locale-Maketext-1.260.100_rc-r1::gentoo  0 KiB
+[nomerge       ] media-gfx/graphviz-2.38.0-r1::gentoo  USE="cairo nls perl python -X -devil -doc -examples -gdk-pixbuf -gtk -gts -guile -java -lasi -pdf -postscript -qt4 -ruby -static-libs -svg -tcl" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  virtual/jpeg-0-r2::gentoo  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild  N     ]   media-libs/libjpeg-turbo-1.5.0::gentoo  USE="-java -static-libs" ABI_X86="(64) -32 (-x32)" 1,630 KiB
+[ebuild  N     ]    dev-lang/nasm-2.12.01::gentoo  USE="-doc" 762 KiB
+[nomerge       ] app-antivirus/clamav-0.99::gentoo  USE="bzip2 iconv (selinux) -clamdtop -ipv6 (-libressl) -metadata-analysis-api -milter -static-libs (-uclibc)" 
+[ebuild  N     ]  dev-libs/libtommath-0.42.0-r1::gentoo  USE="-doc -examples -static-libs" 1,692 KiB
+[nomerge       ] net-misc/miniupnpd-2.0::gentoo  USE="leasefile -igd2 -ipv6 -pcp-peer -portinuse -strict" 
+[ebuild  N     ]  sys-apps/lsb-release-1.4::gentoo  11 KiB
+[nomerge       ] net-analyzer/ntop-5.0.1-r2::gentoo  USE="ssl -snmp" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  dev-libs/geoip-1.6.9::gentoo  USE="-static-libs" 155 KiB
+[ebuild  N     ]  dev-lang/lua-5.1.5-r3::gentoo  USE="deprecated readline -emacs -static" ABI_X86="(64) -32 (-x32)" 217 KiB
+[nomerge       ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 
+[ebuild  N     ]  sys-firmware/ipxe-1.0.0_p20160620::gentoo  USE="qemu -efi -ipv6 -iso -lkrn -savedconfig -undi -usb -vmware" 2,774 KiB
+[nomerge       ] dev-python/subunit-1.2.0-r1::gentoo  USE="-static-libs {-test}" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 
+[ebuild  N     ]  dev-libs/check-0.9.11::gentoo  USE="-static-libs -subunit" ABI_X86="(64) -32 (-x32)" 675 KiB
+[nomerge       ] net-analyzer/snort-2.9.8.3-r1::gentoo  USE="active-response flexresp3 gre non-ether-decoders perfprofiling ppm react (selinux) threads -control-socket -debug -file-inspect -high-availability -inline-init-failopen -large-pcap-64bit -linux-smp-stats -reload-error-restart -shared-rep -side-channel -sourcefire -static" 
+[ebuild  N     ]  dev-libs/libdnet-1.12::gentoo  USE="python -ipv6 -static-libs {-test}" PYTHON_TARGETS="python2_7" 948 KiB
+[ebuild  N    ~]  net-libs/daq-2.0.2::gentoo  USE="afpacket dump pcap -ipq -ipv6 -nfq -static-libs" 464 KiB
+[nomerge       ] dev-perl/PlRPC-0.202.0-r2::gentoo 
+[ebuild  N     ]  dev-perl/Net-Daemon-0.480.0-r1::gentoo  29 KiB
+[nomerge       ] net-analyzer/suricata-3.2-r1::gentoo  USE="af-packet detection hardened nfqueue rules -control-socket -cuda -debug -geoip -logrotate -lua -luajit -nflog -redis {-test}" 
+[ebuild  N     ]  dev-libs/jansson-2.9::gentoo  USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 474 KiB
+[ebuild  N     ]  net-libs/libnet-1.2_rc3-r1:1.1::gentoo  USE="-doc -static-libs" 661 KiB
+[ebuild  N    ~]  net-libs/libhtp-0.5.22::gentoo  USE="-debug -static-libs" ABI_X86="(64) -32 (-x32)" 5,638 KiB
+[nomerge       ] sys-apps/usb_modeswitch-2.2.6::gentoo  USE="-jimtcl" 
+[ebuild  N     ]  dev-lang/tcl-8.6.6:0/8.6::gentoo  USE="threads -debug" ABI_X86="(64) -32 (-x32)" 5,731 KiB
+[nomerge       ] dev-libs/nss-3.27.2::gentoo  USE="nss-pem -cacert -utils" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  dev-libs/nspr-4.12::gentoo  USE="-debug" ABI_X86="(64) -32 (-x32)" 1,109 KiB
+[nomerge       ] net-analyzer/suricata-3.2-r1::gentoo  USE="af-packet detection hardened nfqueue rules -control-socket -cuda -debug -geoip -logrotate -lua -luajit -nflog -redis {-test}" 
+[ebuild  N     ]  net-libs/libpcap-1.8.0::gentoo  USE="-bluetooth -canusb -dbus -netlink -static-libs" ABI_X86="(64) -32 (-x32)" 683 KiB
+[nomerge       ] app-admin/logrotate-3.10.0::gentoo  USE="acl cron (selinux)" 
+[ebuild  N     ]  virtual/cron-0-r1::gentoo  0 KiB
+[nomerge       ] sys-process/at-3.1.18-r1::gentoo  USE="pam (selinux)" 
+[ebuild  N     ]  sec-policy/selinux-at-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] app-antivirus/clamav-0.99::gentoo  USE="bzip2 iconv (selinux) -clamdtop -ipv6 (-libressl) -metadata-analysis-api -milter -static-libs (-uclibc)" 
+[ebuild  N     ]  sec-policy/selinux-clamav-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-misc/dhcp-4.3.4::gentoo  USE="client (selinux) server ssl -ipv6 -ldap (-libressl) -vim-syntax" 
+[ebuild  N     ]  sec-policy/selinux-dhcp-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-dns/dnsmasq-2.76::gentoo  USE="dhcp inotify nls (selinux) -auth-dns -conntrack -dbus -dhcp-tools -dnssec -idn -ipv6 -lua -script -static -tftp" LINGUAS="-de -es -fi -fr -id -it -no -pl -pt_BR -ro" 
+[ebuild  N     ]  sec-policy/selinux-dnsmasq-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] app-admin/hddtemp-0.3_beta15-r7::gentoo  USE="nls (selinux)" 
+[ebuild  N     ]  sec-policy/selinux-hddtemp-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] app-admin/logrotate-3.10.0::gentoo  USE="acl cron (selinux)" 
+[ebuild  N     ]  sec-policy/selinux-logrotate-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] mail-filter/p3scan-2.3.2-r2::gentoo 
+[ebuild  N     ]  net-mail/mailbase-1.1::gentoo  USE="pam" 0 KiB
+[nomerge       ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 
+[ebuild  N     ]  sec-policy/selinux-qemu-2.20161023-r3::gentoo  0 KiB
+[ebuild  N     ]   sec-policy/selinux-virt-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-nds/openldap-2.4.43::gentoo  USE="berkdb crypt perl (selinux) ssl syslog tcpd -cxx -debug -experimental -gnutls -icu -iodbc -ipv6 -kerberos (-libressl) -minimal -odbc -overlays -samba -sasl -slp -smbkrb5passwd -static-libs" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  sec-policy/selinux-ldap-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-fs/samba-4.2.11::gentoo  USE="acl pam (selinux) system-mitkrb5 -addc -addns -ads -aio -avahi -client -cluster -cups -dmapi -fam -gnutls -iprint -ldap -quota -syslog (-systemd) {-test} -winbind" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  sec-policy/selinux-samba-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] sys-apps/smartmontools-6.4::gentoo  USE="(selinux) -caps -minimal -static" 
+[ebuild  N     ]  sec-policy/selinux-smartmon-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-analyzer/snort-2.9.8.3-r1::gentoo  USE="active-response flexresp3 gre non-ether-decoders perfprofiling ppm react (selinux) threads -control-socket -debug -file-inspect -high-availability -inline-init-failopen -large-pcap-64bit -linux-smp-stats -reload-error-restart -shared-rep -side-channel -sourcefire -static" 
+[ebuild  N     ]  sec-policy/selinux-snort-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-proxy/squid-3.5.23::gentoo  USE="htcp pam (selinux) sqlite ssl wccp wccpv2 -caps -ecap -esi (-ipf-transparent) -ipv6 -kerberos (-kqueue) -ldap (-libressl) -logrotate -mysql -nis (-pf-transparent) -postgres -qos -radius -samba -sasl -snmp -ssl-crtd {-test} -tproxy" 
+[ebuild  N     ]  sec-policy/selinux-squid-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-dns/unbound-1.5.10::gentoo  USE="ecdsa python (selinux) -debug -dnstap -gost (-libressl) -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  sec-policy/selinux-bind-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-libs/serf-1.3.8:1::gentoo  USE="-kerberos" 
+[nomerge       ]  dev-libs/apr-1.5.2:1::gentoo  USE="(selinux) urandom -doc -older-kernels-compatibility -static-libs" 
+[ebuild  N     ]   sec-policy/selinux-apache-2.20161023-r3::gentoo  0 KiB
+[ebuild  N     ]    sec-policy/selinux-kerberos-2.20161023-r3::gentoo  0 KiB
+[nomerge       ] net-analyzer/ntop-5.0.1-r2::gentoo  USE="ssl -snmp" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  dev-python/mako-1.0.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4" 459 KiB
+[ebuild  N     ]   dev-python/markupsafe-0.23::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 14 KiB
+[nomerge       ] dev-python/subunit-1.2.0-r1::gentoo  USE="-static-libs {-test}" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 
+[ebuild  N     ]  dev-python/testtools-1.8.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 204 KiB
+[ebuild  N     ]   dev-python/unittest2-1.1.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 80 KiB
+[ebuild  N     ]    dev-python/traceback2-1.4.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 16 KiB
+[ebuild  N     ]     dev-python/linecache2-1.0.0::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 11 KiB
+[ebuild  N     ]   dev-python/extras-0.0.3::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 7 KiB
+[ebuild  N     ]   dev-python/pbr-1.10.0::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 109 KiB
+[nomerge       ] media-gfx/graphviz-2.38.0-r1::gentoo  USE="cairo nls perl python -X -devil -doc -examples -gdk-pixbuf -gtk -gts -guile -java -lasi -pdf -postscript -qt4 -ruby -static-libs -svg -tcl" PYTHON_TARGETS="python2_7" 
+[nomerge       ]  x11-libs/cairo-1.14.6::gentoo  USE="glib svg -X (-aqua) -debug (-directfb) (-gles2) -opengl -static-libs -valgrind -xcb -xlib-xcb" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]   sys-libs/binutils-libs-2.25.1-r2:0/2.25.1::gentoo  USE="nls zlib -64-bit-bfd -multitarget -static-libs" ABI_X86="(64) -32 (-x32)" 23,616 KiB
+[nomerge       ] dev-python/unittest2-1.1.0::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 
+[ebuild  N     ]  dev-python/six-1.10.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 29 KiB
+[nomerge       ] dev-python/testtools-1.8.0::gentoo  USE="-doc {-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 
+[ebuild  N     ]  dev-python/mimeparse-0.1.4-r1::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 6 KiB
+[nomerge       ] net-dns/unbound-1.5.10::gentoo  USE="ecdsa python (selinux) -debug -dnstap -gost (-libressl) -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  net-dns/dnssec-root-20110630::gentoo  USE="{-test}" 2 KiB
+[nomerge       ] net-fs/samba-4.2.11::gentoo  USE="acl pam (selinux) system-mitkrb5 -addc -addns -ads -aio -avahi -client -cluster -cups -dmapi -fam -gnutls -iprint -ldap -quota -syslog (-systemd) {-test} -winbind" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[nomerge       ]  sys-libs/tevent-0.9.28::gentoo  USE="python" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]   sys-libs/talloc-2.1.5::gentoo  USE="python -compat" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 426 KiB
+[nomerge       ] net-libs/serf-1.3.8:1::gentoo  USE="-kerberos" 
+[ebuild  N     ]  dev-util/scons-2.4.1::gentoo  USE="-doc" PYTHON_TARGETS="python2_7 (-pypy)" 625 KiB
+[nomerge       ] media-gfx/graphviz-2.38.0-r1::gentoo  USE="cairo nls perl python -X -devil -doc -examples -gdk-pixbuf -gtk -gts -guile -java -lasi -pdf -postscript -qt4 -ruby -static-libs -svg -tcl" PYTHON_TARGETS="python2_7" 
+[nomerge       ]  media-libs/fontconfig-2.11.1-r2:1.0::gentoo  USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]   virtual/ttf-fonts-1::gentoo  0 KiB
+[nomerge       ] sys-apps/usb_modeswitch-2.2.6::gentoo  USE="-jimtcl" 
+[ebuild  N     ]  virtual/libusb-1-r2:1::gentoo  USE="-udev" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild  N     ]   dev-libs/libusb-1.0.19-r1:1::gentoo  USE="-debug -doc -examples -static-libs {-test} -udev" ABI_X86="(64) -32 (-x32)" 510 KiB
+[nomerge       ] dev-libs/newt-0.52.15::gentoo  USE="nls -gpm -tcl" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  sys-libs/slang-2.3.0::gentoo  USE="pcre readline zlib -cjk -png -static-libs" ABI_X86="(64) -32 (-x32)" 1,498 KiB
+[nomerge       ] media-libs/harfbuzz-1.3.1:0/0.9.18::gentoo  USE="cairo glib graphite introspection truetype -fontconfig -icu -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 
+[nomerge       ]  dev-libs/gobject-introspection-1.48.0::gentoo  USE="-cairo -doctool {-test}" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]   dev-libs/gobject-introspection-common-1.48.0::gentoo  0 KiB
+[nomerge       ] media-libs/harfbuzz-1.3.1:0/0.9.18::gentoo  USE="cairo glib graphite introspection truetype -fontconfig -icu -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 
+[nomerge       ]  x11-libs/cairo-1.14.6::gentoo  USE="glib svg -X (-aqua) -debug (-directfb) (-gles2) -opengl -static-libs -valgrind -xcb -xlib-xcb" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]   dev-libs/lzo-2.08:2::gentoo  USE="-examples -static-libs" ABI_X86="(64) -32 (-x32)" 576 KiB
+[nomerge       ] net-analyzer/ntop-5.0.1-r2::gentoo  USE="ssl -snmp" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  media-fonts/corefonts-1-r7::gentoo  USE="-X -tahoma" 7,460 KiB
+[ebuild  N     ]   app-arch/cabextract-1.6::gentoo  USE="-extras" 237 KiB
+[nomerge       ] mail-filter/p3scan-2.3.2-r2::gentoo 
+[ebuild  N     ]  net-mail/ripmime-1.4.0.10::gentoo  USE="-static-libs" 169 KiB
+[nomerge       ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 
+[ebuild  N     ]  sys-firmware/vgabios-0.7a::gentoo  USE="-debug" 1,474 KiB
+[ebuild  N     ]   sys-devel/dev86-0.16.19::gentoo  697 KiB
+[ebuild  N     ]    sys-devel/bin86-0.16.21::gentoo  151 KiB
+[ebuild  N     ]  dev-libs/libaio-0.3.110::gentoo  USE="-static-libs {-test}" ABI_X86="(64) -32 (-x32)" 42 KiB
+[ebuild  N     ]  sys-firmware/seabios-1.8.2::gentoo  USE="binary seavgabios -debug" 86 KiB
+[ebuild  N     ]  sys-firmware/sgabios-0.1_pre8::gentoo  30 KiB
+[ebuild  N     ]  sys-apps/dtc-1.4.1::gentoo  USE="-static-libs" 106 KiB
+[nomerge       ] net-nds/openldap-2.4.43::gentoo  USE="berkdb crypt perl (selinux) ssl syslog tcpd -cxx -debug -experimental -gnutls -icu -iodbc -ipv6 -kerberos (-libressl) -minimal -odbc -overlays -samba -sasl -slp -smbkrb5passwd -static-libs" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  dev-db/lmdb-0.9.18:0/0.9.18::gentoo  USE="-static-libs" 136 KiB
+[nomerge       ] app-crypt/mit-krb5-1.14.2::gentoo  USE="keyutils pkinit (selinux) threads -doc (-libressl) -openldap {-test} -xinetd" ABI_X86="(64) -32 (-x32)" 
+[ebuild  N     ]  sys-apps/keyutils-1.5.9-r1::gentoo  USE="{-test}" ABI_X86="(64) -32 (-x32)" 73 KiB
+[nomerge       ] dev-python/subunit-1.2.0-r1::gentoo  USE="-static-libs {-test}" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5)" 
+[ebuild  N     ]  dev-util/cppunit-1.13.2-r2::gentoo  USE="-doc -examples -static-libs" ABI_X86="(64) -32 (-x32)" 932 KiB
+[nomerge       ] net-analyzer/suricata-3.2-r1::gentoo  USE="af-packet detection hardened nfqueue rules -control-socket -cuda -debug -geoip -logrotate -lua -luajit -nflog -redis {-test}" 
+[ebuild  N     ]  dev-libs/libyaml-0.1.7::gentoo  USE="-doc -examples -static-libs {-test}" 516 KiB
+[nomerge       ] net-analyzer/rrdtool-1.5.5::gentoo  USE="graph perl python tcpd -dbi -doc -lua -rados -rrdcgi -ruby -static-libs -tcl" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  virtual/awk-1::gentoo  0 KiB
+[nomerge       ] sys-libs/ldb-1.1.26:0/1.1.26::gentoo  USE="-doc" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  dev-libs/libbsd-0.8.2::gentoo  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 337 KiB
+[nomerge       ] net-dns/unbound-1.5.10::gentoo  USE="ecdsa python (selinux) -debug -dnstap -gost (-libressl) -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7" 
+[ebuild  N     ]  dev-libs/libevent-2.0.22::gentoo  USE="ssl threads -debug -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 835 KiB
+[ebuild  N     ] net-proxy/c-icap-0.2.6::gentoo  USE="berkdb -ipv6 -ldap" 569 KiB
+[nomerge       ] net-libs/libnetfilter_log-1.0.1::gentoo  USE="-static-libs" 
+[ebuild  N     ]  net-libs/libnfnetlink-1.0.1::gentoo  USE="-static-libs" 314 KiB
+[nomerge       ] app-emulation/qemu-2.7.0-r7::gentoo  USE="aio bzip2 caps curl fdt filecaps jpeg ncurses nls pin-upstream-blobs png python seccomp (selinux) threads uuid vhost-net vnc xattr -accessibility -alsa -bluetooth -debug (-glusterfs) -gnutls -gtk -gtk2 -infiniband -iscsi -lzo -nfs -numa -opengl -pulseaudio -rbd -sasl -sdl -sdl2 -smartcard -snappy -spice -ssh -static -static-softmmu -static-user -systemtap -tci {-test} -usb -usbredir -vde -virgl -virtfs -vte -xen -xfs" LINGUAS="-bg -de_DE -fr_FR -hu -it -tr -zh_CN" PYTHON_TARGETS="python2_7" QEMU_SOFTMMU_TARGETS="x86_64 -aarch64 -alpha -arm -cris -i386 -lm32 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -moxie -or32 -ppc -ppc64 -ppcemb -s390x -sh4 -sh4eb -sparc -sparc64 -tricore -unicore32 -xtensa -xtensaeb" QEMU_USER_TARGETS="-aarch64 -alpha -arm -armeb -cris -i386 -m68k -microblaze -microblazeel -mips -mips64 -mips64el -mipsel -mipsn32 -mipsn32el -or32 -ppc -ppc64 -ppc64abi32 -ppc64le -s390x -sh4 -sh4eb -sparc -sparc32plus -sparc64 -tilegx -unicore32 -x86_64" 
+[ebuild  N     ]  media-libs/libpng-1.6.27:0/16::gentoo  USE="-apng (-neon) -static-libs" ABI_X86="(64) -32 (-x32)" 962 KiB
+
+Total: 166 packages (164 new, 1 in new slot, 1 reinstall), Size of downloads: 347,890 KiB
