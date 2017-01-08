@@ -1,0 +1,9 @@
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  ... done!
+[ebuild  N     ] app-shells/push-1.6::gentoo  2 KiB
+[ebuild  N     ] dev-db/sqlite-3.13.0:3::gentoo  USE="readline -debug -doc -icu -secure-delete -static-libs -tcl {-test} -tools" ABI_X86="(64) -32 (-x32)" 2403 KiB
+[ebuild  N     ] app-portage/eix-0.31.7-r1::gentoo  USE="dep nls required-use sqlite -debug -doc -optimization -security -strong-optimization -strong-security -swap-remote -tools" LINGUAS="-de -ru" 570 KiB
+
+Total: 3 packages (3 new), Size of downloads: 2974 KiB
