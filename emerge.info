@@ -1,0 +1,56 @@
+Portage 2.3.0 (python 2.7.12-final-0, default/linux/amd64/13.0, gcc-4.9.4, glibc-2.23-r3, 4.4.39-gentoo x86_64)
+=================================================================
+System uname: Linux-4.4.39-gentoo-x86_64-AMD_Phenom-tm-_II_X6_1100T_Processor-with-gentoo-2.3
+KiB Mem:     4043520 total,   3791712 free
+KiB Swap:          0 total,         0 free
+Timestamp of repository gentoo: Mon, 09 Jan 2017 03:00:01 +0000
+sh bash 4.3_p48-r1
+ld GNU ld (Gentoo 2.25.1 p1.1) 2.25.1
+app-shells/bash:          4.3_p48-r1::gentoo
+dev-lang/perl:            5.22.3_rc4::gentoo
+dev-lang/python:          2.7.12::gentoo
+dev-util/cmake:           3.6.3::gentoo
+dev-util/pkgconfig:       0.28-r2::gentoo
+sys-apps/baselayout:      2.3::gentoo
+sys-apps/openrc:          0.22.4::gentoo
+sys-apps/sandbox:         2.10-r1::gentoo
+sys-devel/autoconf:       2.69::gentoo
+sys-devel/automake:       1.14.1::gentoo, 1.15::gentoo
+sys-devel/binutils:       2.25.1-r1::gentoo
+sys-devel/gcc:            4.9.4::gentoo
+sys-devel/gcc-config:     1.7.3::gentoo
+sys-devel/libtool:        2.4.6-r2::gentoo
+sys-devel/make:           4.1-r1::gentoo
+sys-kernel/linux-headers: 4.4::gentoo (virtual/os-headers)
+sys-libs/glibc:           2.23-r3::gentoo
+Repositories:
+
+gentoo
+    location: /usr/portage
+    sync-type: rsync
+    sync-uri: rsync://rsync.gentoo.org/gentoo-portage
+    priority: -1000
+
+ACCEPT_KEYWORDS="amd64"
+ACCEPT_LICENSE="* -@EULA"
+CBUILD="x86_64-pc-linux-gnu"
+CFLAGS="-O2 -pipe"
+CHOST="x86_64-pc-linux-gnu"
+CONFIG_PROTECT="/etc /usr/share/gnupg/qualified.txt"
+CONFIG_PROTECT_MASK="/etc/ca-certificates.conf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d /etc/terminfo"
+CXXFLAGS="-O2 -pipe"
+DISTDIR="/usr/portage/distfiles"
+FCFLAGS="-O2 -pipe"
+FEATURES="assume-digests binpkg-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch preserve-libs protect-owned sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr"
+FFLAGS="-O2 -pipe"
+GENTOO_MIRRORS="http://gentoo.mirrors.easynews.com/linux/gentoo/ ftp://ftp.gtlib.gatech.edu/pub/gentoo http://www.gtlib.gatech.edu/pub/gentoo rsync://rsync.gtlib.gatech.edu/gentoo ftp://ftp.ussg.iu.edu/pub/linux/gentoo http://lug.mtu.edu/gentoo/ ftp://lug.mtu.edu/gentoo/ http://gentoo.netnitco.net ftp://gentoo.netnitco.net/pub/mirrors/gentoo/source/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ ftp://gentoo.mirrors.pair.com/ http://mirrors.rit.edu/gentoo/ rsync://mirrors.rit.edu/gentoo/ ftp://mirrors.rit.edu/gentoo/ ftp://mirror.iawnet.sandia.gov/pub/gentoo/ http://mirror.iawnet.sandia.gov/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://mirror.lug.udel.edu/pub/gentoo/ http://cosmos.illinois.edu/pub/gentoo/ ftp://cosmos.illinois.edu/pub/gentoo/ http://gentoo.cs.uni.edu/ rsync://gentoo.cs.uni.edu/gentoo-distfiles http://mirror.usu.edu/mirrors/gentoo/"
+LANG="en_US.utf8"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+MAKEOPTS="-j3"
+PKGDIR="/usr/portage/packages"
+PORTAGE_CONFIGROOT="/"
+PORTAGE_RSYNC_OPTS="--recursive --links --safe-links --perms --times --omit-dir-times --compress --force --whole-file --delete --stats --human-readable --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages --exclude=/.git"
+PORTAGE_TMPDIR="/var/tmp"
+USE="acl alsa amd64 berkdb bzip2 cdr cgi cli cracklib crypt cxx dvd gdbm git iconv jpeg minimal mmx mmxext modules multilib ncurses nls nptl pam pcre perl python readline seccomp session sqlite sse sse2 ssl symlink tcpd unicode xattr zlib" ABI_X86="64" ALSA_CARDS="ali5451 als4000 atiixp atiixp-modem bt87x ca0106 cmipci emu10k1x ens1370 ens1371 es1938 es1968 fm801 hda-intel intel8x0 intel8x0m maestro3 trident usb-audio via82xx via82xx-modem ymfpci" APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias" CALLIGRA_FEATURES="kexi words flow plan sheets stage tables krita karbon braindump author" CAMERAS="ptp2" COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog" CPU_FLAGS_X86="mmx sse sse2 mmxext 3dnow 3dnowext 3dnowprecache sse4a" ELIBC="glibc" GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock itrax mtk3301 nmea ntrip navcom oceanserver oldstyle oncore rtcm104v2 rtcm104v3 sirf superstar2 timing tsip tripmate tnt ublox ubx" INPUT_DEVICES="keyboard mouse evdev" KERNEL="linux" LCD_DEVICES="bayrad cfontz cfontz633 glk hd44780 lb216 lcdm001 mtxorb ncurses text" LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer" OFFICE_IMPLEMENTATION="libreoffice" PHP_TARGETS="php5-6" PYTHON_SINGLE_TARGET="python2_7" PYTHON_TARGETS="python2_7" RUBY_TARGETS="ruby21" USERLAND="GNU" VIDEO_CARDS="amdgpu fbdev intel nouveau radeon radeonsi vesa dummy v4l" XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq steal rawnat logmark ipmark dhcpmac delude chaos account"
+Unset:  CC, CPPFLAGS, CTARGET, CXX, EMERGE_DEFAULT_OPTS, INSTALL_MASK, LC_ALL, PORTAGE_BUNZIP2_COMMAND, PORTAGE_COMPRESS, PORTAGE_COMPRESS_FLAGS, PORTAGE_RSYNC_EXTRA_OPTS, USE_PYTHON
+
